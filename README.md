@@ -68,6 +68,8 @@ model.compile(optimizer='adam', loss='mean_squared_error')
 model.summary()
 ```
 
+![sequential](lstm_sequential.png)
+
 ## Train Model
 
 We train the model using the training data.
@@ -113,3 +115,4 @@ plt.ylabel('Stock Price')
 plt.legend()
 plt.show()
 ```
+![prediction](stock_price_prediction.png)
